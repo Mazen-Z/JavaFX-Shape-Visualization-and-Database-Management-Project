@@ -13,7 +13,7 @@ public class StudentDatabase implements StudentsDatabaseInterface, TableInterfac
             Class.forName("com.mysql.cj.jdbc.Driver");
             System.out.println("Connecting to database");
 
-                    cc=DriverManager.getConnection("jdbc:mysql://localhost:3306/applications", "root", "10272002");
+                    cc=DriverManager.getConnection("jdbc:mysql://localhost:3306/applications", "root", "password for database is entered here");
             if (cc != null) {
                 System.out.println("Database successfully connected");
             }
