@@ -10,7 +10,7 @@ public class Database implements StudentsDatabaseInterface, TableInterface {
 
     public Database() throws SQLException {
         // Establish a connection to the SQL database using the DriverManager class
-        cc = DriverManager.getConnection("jdbc:mysql://localhost:3306/applications", "root", "10272002");
+        cc = DriverManager.getConnection("jdbc:mysql://localhost:3306/applications", "root", "*****");
     }
 
     // Method for creating the schema
