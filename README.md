@@ -24,8 +24,8 @@ The user interface is designed for ease of use and intuitive interaction. JavaFX
 
 ## **Getting Started**
 ### Prerequisites
-Java Development Kit (JDK) 8 or later
-MySQL Database
+1. Java Development Kit (JDK) 8 or later.
+2. MySQL Database.
 
 ## Setup
 1. Clone the repository to your local machine:
